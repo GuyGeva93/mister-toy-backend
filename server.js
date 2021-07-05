@@ -41,7 +41,7 @@ app.post('/api/toy', (req, res) => {
     })
 })
 
-// Edit toy
+// Edit toy 
 app.put('/api/toy', (req, res) => {
   console.log('req.body', req.body)
   const { _id, name, price, type, createdAt, inStock } = req.body
