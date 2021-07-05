@@ -1,0 +1,90 @@
+[
+  {
+    "_id": "8010",
+    "name": "placerat mi",
+    "price": 64,
+    "type": "Educational",
+    "createdAt": "1972-02-27T06:16:43.906Z",
+    "inStock": false
+  },
+  {
+    "_id": "8011",
+    "name": "risus convallis",
+    "price": 61,
+    "type": "Funny",
+    "createdAt": "1988-08-20T15:24:13.325Z",
+    "inStock": false
+  },
+  {
+    "_id": "8012",
+    "name": "tortor porta",
+    "price": 75,
+    "type": "Funny",
+    "createdAt": "1990-05-03T06:33:11.661Z",
+    "inStock": false
+  },
+  {
+    "_id": "8013",
+    "name": "tortor lorem",
+    "price": 84,
+    "type": "Funny",
+    "createdAt": "1985-02-13T08:59:13.496Z",
+    "inStock": false
+  },
+  {
+    "_id": "8014",
+    "name": "sagittis sed",
+    "price": 48,
+    "type": "Educational",
+    "createdAt": "1985-09-05T05:21:11.873Z",
+    "inStock": true
+  },
+  {
+    "_id": "8015",
+    "name": "magna porta",
+    "price": "38",
+    "type": "Educational",
+    "createdAt": "1985-09-05T05:21:11.873Z",
+    "inStock": false
+  },
+  {
+    "_id": "8016",
+    "name": "facilisis vitae",
+    "price": 18,
+    "type": "Funny",
+    "createdAt": "1974-03-18T05:17:09.257Z",
+    "inStock": false
+  },
+  {
+    "_id": "8017",
+    "name": "sit ac",
+    "price": 94,
+    "type": "Funny",
+    "createdAt": "1991-06-29T18:54:59.787Z",
+    "inStock": true
+  },
+  {
+    "_id": "8018",
+    "name": "libero tempor",
+    "price": "45",
+    "type": "Educational",
+    "createdAt": "1970-06-19T13:32:33.247Z",
+    "inStock": false
+  },
+  {
+    "_id": "8019",
+    "name": "placerat sit",
+    "price": 80,
+    "type": "Adult",
+    "createdAt": "1970-11-02T14:34:28.007Z",
+    "inStock": false
+  },
+  {
+    "_id": "8020",
+    "name": "pulvinar porta",
+    "price": 8,
+    "type": "Funny",
+    "createdAt": "1981-10-06T23:16:18.439Z",
+    "inStock": false
+  }
+]
