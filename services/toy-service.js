@@ -10,8 +10,12 @@ module.exports = {
   save,
 }
 
-function query() {
-  return Promise.resolve(gToys)
+function query(filterBy) {
+  let toysToShow = JSON.parse(JSON.stringify(gToys))
+  if (filterBy === '' || filterBy === 'all') toysToShow = gToys
+  else toysToShow = gToys.filter((toy) => toy.type === filterBy)
+  console.log(toysToShow)
+  return Promise.resolve(toysToShow)
 }
 
 function getById(toyId) {

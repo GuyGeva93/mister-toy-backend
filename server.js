@@ -13,7 +13,8 @@ app.use(cors())
 
 // Get Toys list
 app.get('/api/toy', (req, res) => {
-  toyService.query()
+  const {filterBy} = req.query
+  toyService.query(filterBy)
     .then(toys => res.send(toys))
 })
 
@@ -36,14 +37,14 @@ app.post('/api/toy', (req, res) => {
   }
   toyService.save(toy)
     .then(savedToy => {
-      console.log('savedToy', savedToy)
+      // console.log('savedToy', savedToy)
       res.send(savedToy)
     })
 })
 
 // Edit toy 
 app.put('/api/toy', (req, res) => {
-  console.log('req.body', req.body)
+  // console.log('req.body', req.body)
   const { _id, name, price, type, createdAt, inStock } = req.body
   const toy = {
     _id,
@@ -62,7 +63,7 @@ app.put('/api/toy', (req, res) => {
 // Remove toy 
 app.delete('/api/toy/:toyId', (req, res) => {
   const { toyId } = req.params
-  console.log('toyId', toyId)
+  // console.log('toyId', toyId)
   toyService.remove(toyId)
     .then(() => {
       res.send('Deleted!')
