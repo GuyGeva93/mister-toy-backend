@@ -1,5 +1,13 @@
 [
   {
+    "_id": "D7sL6",
+    "name": "Car",
+    "price": "34",
+    "type": "Funny",
+    "createdAt": 1625674076541,
+    "inStock": true
+  },
+  {
     "_id": "8010",
     "name": "placerat mi",
     "price": 64,

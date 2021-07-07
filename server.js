@@ -37,7 +37,6 @@ app.post('/api/toy', (req, res) => {
   }
   toyService.save(toy)
     .then(savedToy => {
-      // console.log('savedToy', savedToy)
       res.send(savedToy)
     })
 })
